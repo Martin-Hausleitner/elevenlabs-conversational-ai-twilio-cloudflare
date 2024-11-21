@@ -1,0 +1,26 @@
+{
+  "name": "11labs-twillio",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "set-secret": "wrangler secret put"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "wrangler": "^3.88.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@11labs/client": "^0.0.2",
+    "@cloudflare/workers-types": "^4.20241112.0",
+    "dotenv": "^16.4.5",
+    "hono": "^4.6.10",
+    "twilio": "^5.3.6",
+    "ws": "^8.18.0"
+  }
+}
