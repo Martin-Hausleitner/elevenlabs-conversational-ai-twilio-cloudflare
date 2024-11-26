@@ -2,5 +2,12 @@ name = "11labs-twilio"
 compatibility_date = "2024-09-19"
 compatibility_flags = [ "nodejs_compat_v2" ]
 main = "src/index.ts" 
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
+
+
+
 
 
